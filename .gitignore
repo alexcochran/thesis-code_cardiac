@@ -1,0 +1,18 @@
+# MATLAB extras
+*.asv
+
+# Python extras
+__pycache__/
+*.pyc
+
+# results and analysis output
+output/
+
+# test data
+test-data/
+
+# some figure generation stuff
+figures/
+
+# workspaces/data snapshots
+workspaces/
