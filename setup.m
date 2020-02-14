@@ -14,11 +14,11 @@ archStr = computer('arch');
 switch upper(archStr)
     case 'WIN64'
         fprintf('Identified system as a 64-bit Windows platform.\n');
-        dataRoot = 'E:\TGFalpha-T2Star-project\data-working';
-        warning('Reconstructions may not work.');
+        dataRoot = 'E:\02_cardiac-gating-project\data-working';
+        warning('Image reconstructions requiring the MEX compiler/engine may not work.');
     case 'GLNXA64'
         fprintf('Identified system as a 64-bit Linux platform.\n');
-        dataRoot = '/media/alex/My Passport/TGFalpha-T2Star-project/data-working';
+        dataRoot = '/media/alex/My Passport/02_cardiac-gating-project/data-working';
     case 'MACI64'
         fprintf('Identified system as a 64-bit macOS platform.\n');
         warning('This package has not been tested on macOS.');
